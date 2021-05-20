@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- https://getbootstrap.com/docs/4.6/content/reboot/ FORMATO-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_nt.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_files/contacto.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Russo+One&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5af5ca7c24.js" crossorigin="anonymous"></script>
+    <title>NT- Nadia Tarnovsky</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-start">
+            <div class="col-3">
+                <img id="logo" src="isologo_nt.PNG">
+             </div>
+
+         </div>
+
+        <div class="row justify-content-start">
+            <div class="col-3 menu">
+             <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>HOME</a></li>
+                <li><a href="quienes_somos.html"><i class="fas fa-id-card"></i>QUIÉNES SOMOS</a></li>
+                <li><a href="equipos.html"> <i class="fas fa-shapes"></i>EQUIPOS&PRODUCTOS</a></li>
+                <li><a href="servicios.html"><i class="fas fa-wrench"></i>SERVICIOS</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i>CONTACTO</a></li>
+             </ul>
+            </div>
+
+            <div class="col-8">
+                <fieldset>
+                    <legend>¡Gracias por contactarnos! A la brevedad responderemos tus consultas.</legend>
+                    <form action="show_data.html" target="_blank" method="POST">
+                    <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname"> <br>
+                    <label for="lastname">Apellido:</label><input size="30" type="text" name="lastname"> <br>
+                    <label for="city">Ciudad: </label><input type="text" name="city"> <br>
+                    <label for="zipcode">Código Postal:</label><input type="text" name="zipcode"> <br>
+                    <label for="telefono">Teléfono: </label><input type="tel" name="telefono"> <br>
+                    <label for="mail">Mail: </label><input type="email" name="mail"> <br>
+                    <label for="consulta">¿Cuál es tu consulta?</label><input type="text" size="30" name="consulta"><br> 
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </fieldset>
+
+            </div> 
+        </div>
+
+
+        <div class="row">
+            <div id="ubicacion">
+                <h4>¿Dónde nos encontramos?</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.8036986945042!2d-57.565024111113885!3d-38.05623337388354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de120ca11bc7%3A0x36688c575f722556!2sSicilia%203430%2C%20B7603EXP%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1619909301266!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
